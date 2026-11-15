@@ -88,7 +88,7 @@ def main():
                 else:
                     print("It needs at least 3 digits, with no negative numbers or special characters.")
             else:
-                tries -= 1;
+                tries -= 1
                 if tries >= 1:
                     print(f"Wrong Password! Please try again. {tries} Tries left.")
                 else:
